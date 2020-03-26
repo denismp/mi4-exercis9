@@ -1,0 +1,19 @@
+{
+  "name": "mi4-exercise9",
+  "version": "1.0.0",
+  "description": "Create Document Registry App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denismp/mi4-exercise9.git"
+  },
+  "author": "Denis Putnam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denismp/mi4-exercise9/issues"
+  },
+  "homepage": "https://github.com/denismp/mi4-exercise9#readme"
+}
