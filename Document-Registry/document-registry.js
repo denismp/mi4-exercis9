@@ -1,7 +1,70 @@
 $(document).ready(function () {
-    const documentRegistryContractAddress = "";
-    const documentRegistryContractABI = ""
-    const IPFS = window.IpfsApi('localhost', '5001')
+    const documentRegistryContractAddress = "0x2986bc00f72916cdf3a3876f31e2f59e40d3276b";
+    const documentRegistryContractABI = [
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "hash",
+                    "type": "string"
+                }
+            ],
+            "name": "add",
+            "outputs": [
+                {
+                    "name": "dateAdded",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "getDocument",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                },
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "getDocumentsCount",
+            "outputs": [
+                {
+                    "name": "length",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        }
+    ];
+    const IPFS = window.IpfsApi('localhost', '5001');
     const Buffer = ipfs.Buffer;
 });
 
