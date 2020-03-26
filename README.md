@@ -1,4 +1,4 @@
-# mi4-exercis9
+# mi4-exercise9
 Create Document Registry App
 
 Exercises: Create Document Registry App
