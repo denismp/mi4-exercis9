@@ -281,3 +281,5 @@ In Ganache:
 What to Submit?
 Submit a zip file (e.g. your-username-document-registry.zip) with the source code, the smart contract and at least two screenshots with a successful submission of a document and one with of the “View Documents” section.
 
+NOTE:  This code does not work!
+
