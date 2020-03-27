@@ -65,7 +65,7 @@ $(document).ready(function () {
         }
     ];
     const IPFS = window.IpfsApi('localhost', '5001');
-    const Buffer = ipfs.Buffer;
+    const Buffer = IPFS.Buffer;
 });
 
 $('#linkHome').click(function () {

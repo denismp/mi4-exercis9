@@ -15,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/denismp/mi4-exercise9/issues"
   },
-  "homepage": "https://github.com/denismp/mi4-exercise9#readme"
+  "homepage": "https://github.com/denismp/mi4-exercise9#readme",
+  "dependencies": {},
+  "devDependencies": {}
 }
